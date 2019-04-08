@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>AIR FORCE</title>
+<link rel="stylesheet" href="style_air_force.css"></link>
+</head>
+<body onload=setInterval(flip,1000)>
+	<div class = "no_insert">
+		<a id ="head" href="http://indianairforce.nic.in/" target="_blank">  
+		<img src="logo.png" alt="Not found" width="130px" height="130px">
+		<b>indian air force</b>
+		</a>
+	</div>
+	<div class="navbar">
+		<div class="dropdown">
+			<button class="dropbtn"> HOME </button>
+		</div>
+		<div class="dropdown">
+			<button class="dropbtn"> ABOUT US </button>
+			<div class="dropdown-content">
+				<a class="note" >History</a>
+				<a class="note" >Marshall of the IAF</a>
+				<a class="note" >Operations</a>
+			</div>
+		</div>
+		<div class="dropdown">
+			<button class="dropbtn"> HONOURS &amp; REWARDS</button>
+			<div class="dropdown-content">
+				<a class="note" >Units</a>
+				<a class="note" >Stories of Gallantry Awards</a>
+			</div>
+		</div>
+				<a class="note" > GALLERY </a>
+				<a class="note" > CAREER IN IAF </a>
+	</div>
+	<br>
+	<aside>
+	<div class="middle">
+		<button class="middle1">Notifications</button>
+		<ul>
+			<li id="id1">Here1</li>
+			<li>Here2</li>
+			<li>Here3</li>
+			<li>Here4</li>
+			<li>Here5</li>
+			<li>Here6</li>
+		</ul>
+	</div>
+	</aside>
+	
+	
+	<p id ="Disclaimer">&copy;Disclaimer:Some sites linked in this webpage directs you to the Home Page.<br><br><br>
+	<span id="Last">Created by :   &reg; Himanshu And Tushar :) &copy;</span>
+	</p>
+</body>
+<script src="script_home.js"></script>
+</html>
